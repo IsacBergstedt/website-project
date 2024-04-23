@@ -5,7 +5,7 @@ const UntrackedComponent = () => {
   return (
     <div>
       <h1>Parent Component</h1>
-      <p>I am useless</p>
+      <p>I am more useless</p>
     </div>
   );
 };
