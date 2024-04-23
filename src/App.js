@@ -3,12 +3,14 @@ import './App.css';
 
 import moment from 'moment';
 import MainHeader from './components/MainHeader';
+import UntrackedComponent from './components/UntrackedComponent';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <MainHeader title="Hej alla" description="Detta är vårt nya projekt"></MainHeader>
+        <MainHeader title="Hej alla" description="Detta är vårt nya projekt" />
+        <UntrackedComponent /> 
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
